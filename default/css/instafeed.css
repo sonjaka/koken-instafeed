@@ -1,0 +1,16 @@
+.instafeed {
+	display: block;
+}
+
+.sk-instafeed__link {
+	display: inline-block;
+	margin: 20px;
+}
+
+.sk-instafeed__link:first-child {
+	margin-left: 0;
+}
+
+.sk-instafeed__link:last-child {
+	margin-right: 0;
+}
