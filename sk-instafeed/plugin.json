@@ -1,0 +1,41 @@
+{
+	"name": "SK Instagfeed",
+	"version" : "1.0",
+	"description" : "Includes your latest instagram feed through the instafeed.js library",
+	"author" : {
+		"name" : "Sonja Karl",
+		"link" : "www.sonja-karl.de"
+	},
+	"data": {
+		"location": {
+			"label": "Where should the instagram feed be shown?",
+			"type": "select",
+			"options": [
+				{ "label": "Do not show", "value": "none" },
+				{ "label": "Show above content", "value": "above" },
+				{ "label": "Show below content", "value": "below" },
+				{ "label": "I'll place <div id=\"instafeed\"></div> somehwere in my template", "value": "snippet" }
+			]
+		},
+		"instagram_limit": {
+		  "label": "Number of Images",
+		  "info": "How many Instagram Images should be displayed? (Maximum is 20)",
+		  "type": "string"
+		},
+		"instagram_client_id": {
+		  "label": "Instagram Client-ID",
+		  "info": "Can be obtained from Instagrams Website (http://www.instagram.com/developer/), or just google \"How to get an Instagram Client ID\". Example: 6d9647d71598413fb49e347c57280bcf",
+		  "type": "string"
+		},
+		"instagram_user_id": {
+		  "label": "Instagram User-ID",
+		  "info": "Your Account ID, not User Name. If you don't know your ID, google \"How to get Instagram User ID\".",
+		  "type": "string"
+		},
+		"instagram_token": {
+		  "label": "Instagram Client-ID",
+		  "info": "Can be obtained from Instagrams Website (http://www.instagram.com/developer/), or just google \"How to get an Instagram Client ID\". Example: 6d9647d71598413fb49e347c57280bcf",
+		  "type": "string"
+		}
+	}
+}
